@@ -7,7 +7,7 @@ Pods
 Services
 `kubectl get svc -o wide`
 
-ClusterIP > NodePort > LoadBalance
+ClusterIP -> NodePort -> LoadBalance
 
 ClusterIP: interno, comunicação entre pods
 NodePort: externo, expondo serviço/aplicação/porta
